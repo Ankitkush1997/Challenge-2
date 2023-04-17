@@ -1,0 +1,86 @@
+/* Custom CSS for Navigation bar */
+
+/* .navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  padding: 7px 20px;
+  gap: 50px;
+  justify-content: space-around;
+}
+.navbar {
+  background-color: #007bff;
+  padding: 16px;
+}
+
+.heading {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  font-size: 16px;
+}
+.navbar-link {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #0056b3;
+}
+
+span {
+  cursor: pointer;
+}
+*/
+
+/* Responsive styles */
+/* @media screen and (max-width: 600px) {
+  .navbar ul {
+    gap: 8px;
+  }
+
+  .navbar li {
+    font-size: 14px;
+  }
+} */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-list {
+  position: absolute;
+  width: 22%;
+  list-style: none;
+  right: 0;
+  top: 57px;
+}
+
+.navbar-item {
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 20px;
+  transition: all 0.5 ease-in-out;
+}
