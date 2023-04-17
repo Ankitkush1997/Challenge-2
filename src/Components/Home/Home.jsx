@@ -1,4 +1,6 @@
 import "./Home.css";
+import rightImage from "../../../assets/illust.png";
+import leftImage from "../../../assets/big_c.png";
 
 const Home = () => {
   return (
@@ -15,16 +17,8 @@ const Home = () => {
         </div>
 
         <div className="side-image-container">
-          <img
-            className="side-image-right"
-            src="../../../assets/illust.png"
-            alt="image"
-          />
-          <img
-            className="side-image-left"
-            src="../../../assets/big_c.png"
-            alt=""
-          />
+          <img className="side-image-right" src={rightImage} alt="image" />
+          <img className="side-image-left" src={leftImage} alt="" />
         </div>
       </div>
     </div>
